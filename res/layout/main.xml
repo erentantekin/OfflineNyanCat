@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+
+    <ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/imgMain"
+    android:layout_weight="0.52"
+    >
+    </ImageView>
+         
+	
+	<LinearLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:layout_gravity="bottom"
+	android:orientation="vertical"
+	android:id="@+id/LinearLayout">
+	
+		
+		<Button
+		android:id="@+id/btnAudio"
+		android:background="@drawable/button"
+		android:layout_width="fill_parent"
+		android:layout_height="50sp"
+		android:text="@string/stop_audio"
+		android:onClick="btnAudioClick"
+		android:textColor="@android:color/white"
+		android:textSize="15dp"
+		>
+		</Button>
+	
+				
+	</LinearLayout>
+
+
+
+	<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="100sp"
+	>
+              
+  		<com.google.ads.AdView
+  		android:id="@+id/adView1"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		ads:adUnitId="a14e35686ed02c6"
+  		ads:adSize="BANNER"
+  		ads:loadAdOnCreate="true"
+  		/>
+  
+  		<com.google.ads.AdView
+  		android:id="@+id/adView2"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		ads:adUnitId="a14e35686ed02c6"
+  		ads:adSize="BANNER"
+  		ads:loadAdOnCreate="true"
+  		/>
+  
+  
+	</LinearLayout>
+
+
+
+</LinearLayout>

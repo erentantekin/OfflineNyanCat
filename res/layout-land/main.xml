@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+
+    <ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/imgMain"
+    android:layout_weight="0.52"
+    >
+    </ImageView>
+
+
+	<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="50sp"
+	>
+        
+              
+		<com.google.ads.AdView
+		android:id="@+id/adView1"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		ads:adUnitId="a14e35686ed02c6"
+  		ads:adSize="BANNER"
+  		ads:loadAdOnCreate="true"
+  		/>
+  
+  
+  		<Button
+  		android:layout_width="fill_parent"
+  		android:text="@string/stop_audio"
+  		android:textSize="15dp"
+  		android:layout_height="50sp"
+  		android:onClick="btnAudioClick"
+  		android:background="@drawable/button"
+  		android:id="@+id/btnAudio"
+  		android:textColor="@android:color/white">
+  		</Button>
+  
+    
+	</LinearLayout>
+
+
+
+</LinearLayout>

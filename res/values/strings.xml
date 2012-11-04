@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Offline Nyan Cat</string>
+    <string name="stop_audio">Quiet!</string>
+    <string name="start_audio">Louder you pussy!</string>
+    <string name="credits">Credits</string>
+    <string name="eren_url">http://www.gizop.com</string>
+    <string name="roberto_url">http://robertocrespo.deviantart.com</string>    
+</resources>

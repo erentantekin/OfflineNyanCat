@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/linearLayout"
+android:layout_width="fill_parent"
+android:padding="10dp"
+android:layout_height="wrap_content"
+android:orientation="vertical" 
+>
+	
+	
+    <LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+    	
+        <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+        android:id="@+id/imgIcon"
+        >
+        </ImageView>
+        
+        <TextView
+        android:id="@+id/txtTitle"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_height="fill_parent"
+        android:layout_width="wrap_content">
+        </TextView>
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout
+    android:id="@+id/linearLayout2"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_width="fill_parent">
+    
+    	<LinearLayout
+    	android:id="@+id/linearLayout3"
+    	android:orientation="vertical"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:layout_gravity="center"
+    	android:layout_weight="1"
+    	>
+    	
+        	<TextView android:id="@+id/txtFiller" android:text="" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>       
+        	<TextView android:id="@+id/txtApplication" android:text="Application:"  android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+        	<TextView android:id="@+id/txtEren" android:text="Eren Tantekin" android:textColor="#00ccff" android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+        	<TextView android:id="@+id/txtErenUrl" android:text="@string/eren_url"  android:textColor="#00ccff" android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+        
+    	
+    	
+    	</LinearLayout>
+    	
+    	
+    	
+        <TextView android:id="@+id/txtFiller" android:text="               " android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+    	
+    	
+    	<LinearLayout
+    	android:id="@+id/linearLayout4"
+    	android:orientation="vertical"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:layout_gravity="center"
+    	android:layout_weight="1"
+    	android:gravity="right"
+    	>
+    	  	  
+        	<TextView android:id="@+id/txtFiller" android:text="" android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+        	<TextView android:id="@+id/txtIcon" android:text="Icon:" android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+        	<TextView android:id="@+id/txtRoberto" android:text="Roberto Crespo"  android:textColor="#00ccff" android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>     
+        	<TextView android:id="@+id/txtRobertoUrl" android:text="@string/roberto_url"  android:textColor="#00ccff" android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+    
+    	
+    	
+    	</LinearLayout>
+    	
+    	
+    
+    </LinearLayout>
+    
+    
+    
+</LinearLayout>

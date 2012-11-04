@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/nyan01" android:duration="70" />
+    <item android:drawable="@drawable/nyan02" android:duration="70" />
+    <item android:drawable="@drawable/nyan03" android:duration="70" />
+    <item android:drawable="@drawable/nyan04" android:duration="70" />
+    <item android:drawable="@drawable/nyan05" android:duration="70" />
+    <item android:drawable="@drawable/nyan06" android:duration="70" />
+    <item android:drawable="@drawable/nyan07" android:duration="70" />
+    <item android:drawable="@drawable/nyan08" android:duration="70" />
+    <item android:drawable="@drawable/nyan09" android:duration="70" />
+    <item android:drawable="@drawable/nyan10" android:duration="70" />
+    <item android:drawable="@drawable/nyan11" android:duration="70" />
+    <item android:drawable="@drawable/nyan12" android:duration="70" />
+ </animation-list>
